@@ -1,3 +1,4 @@
+
 id_list = input().split()
 report = set(input().split(','))
 k = int(input())
@@ -20,3 +21,5 @@ for data in id_map.values():
 
 for data in id_map.values():
     answer.append(data['repo'])
+
+print(answer)
