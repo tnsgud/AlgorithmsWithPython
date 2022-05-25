@@ -1,3 +1,4 @@
+
 lottos = [int(x) for x in set(input().split())]
 win_nums = [int(x) for x in input().split()]
 
