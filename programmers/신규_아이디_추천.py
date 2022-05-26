@@ -1,3 +1,4 @@
+
 import re
 
 new_id = re.sub(pattern='[^a-z|0-9|-|_|.]|', string=input().lower(), repl='')
