@@ -1,3 +1,4 @@
+
 record = [x for x in input().split(',')]
 user = {}
 actions = []
